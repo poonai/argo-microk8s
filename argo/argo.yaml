@@ -2720,8 +2720,8 @@ spec:
       containers:
       - command:
         - argocd-server
-        - --staticassets
         - --insecure
+        - --staticassets
         - /shared/app
         image: quay.io/argoproj/argocd:latest
         imagePullPolicy: Always
